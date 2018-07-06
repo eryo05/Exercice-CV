@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "jg.css",
+	"sources": [
+		"../../scss/jg.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,aAAa,GAClC;;AAED,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;EACjB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,IAAI;EACnB,KAAK,EAAE,KAAK,GACf"
+}
