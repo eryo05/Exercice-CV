@@ -7,6 +7,17 @@ body {
   margin-bottom: 60px;
   border: 2px solid black;
   border-radius: 40px;
-  width: 150px; }
+  width: 150px; 
+}
+
+.formation {
+  display: inline-block;
+  margin: 50px;
+
+}
+.experience{
+  display: inline-block;
+  margin: 50px;
+}
 
 /*# sourceMappingURL=jg.css.map */

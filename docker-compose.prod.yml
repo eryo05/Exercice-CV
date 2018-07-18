@@ -9,7 +9,7 @@ services:
     volumes:
       - ./:/application
     ports:
-      - "8080:3000"
+      - "80:3000"
       - "5858:5858"
     command: >
       bash -c "npm install express --save 
@@ -29,6 +29,9 @@ services:
       MYSQL_ROOT_PASSWORD: p4ssword
     volumes:
       - ./:/application
+    working_dir: /application
+    command : >
+      bash -c 'mysqld --user mysql'
 
   adminer:
     image: adminer
